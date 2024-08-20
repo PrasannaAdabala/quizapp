@@ -1,0 +1,56 @@
+/* App.css */
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; /* Light background color */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.welcome-container,
+.quiz-container,
+.results-container {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff; /* White background for content */
+  max-width: 500px;
+  width: 100%;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue background color */
+  color: #ffffff;
+}
+
+button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+.options button {
+  display: block;
+  margin: 5px auto;
+}
+
+.timer {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+@media (max-width: 600px) {
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
+}
